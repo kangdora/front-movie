@@ -7,7 +7,7 @@
 <br>├── scripts/
 <br>│   ├── api/                   # API 관련 이벤트 처리
 <br>│   │   ├── fillTable.ts       # 반환된 result를 통해 페이지에 처리하는 함수
-<br>│   │   ├── returnResult.ts    # 맵핑된 results를 현재 페이지 너비에 따라 반환하는 함수
+<br>│   │   ├── resultsManager.ts    # 맵핑된 results를 현재 페이지 너비에 따라 반환하는 함수
 <br>│   │   └── fecthResults.ts    # API에서 results 맵핑하는 함수
 <br>│   ├── ui/                    # UI 관련 이벤트 처리
 <br>│   │   ├── eventHandlers.ts   # 버튼 및 스크롤 이벤트 처리
